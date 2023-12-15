@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects and Research Papers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<style>
+    * {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .card {
+        width: 20vw;
+    }
+
+    .grid-3-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        row-gap: 10vh;
+    }
+
+    .modal-img-div {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5vh;
+    }
+
+    .modal-img {
+        width: 30vw;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .grid-3-1 {
+            grid-template-columns: 1fr;
+            row-gap: 5vh;
+        }
+
+        .card {
+            width: 60vw;
+        }
+    }
+</style>
+
+<body style="background: linear-gradient(to left, #1f2641, black);">
+    <div class="container">
+        <h1 style="text-align: center; padding: 2vh 0;">Projects</h1>
+        <h4 style="padding: 2vh 0;">Completed</h4>
+        <div class="grid-3-1">
+            <div class="modal fade" id="PCM1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/RecruitRank.jpeg" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Recruit Rank</h3>
+                            </div>
+                            <div>
+                                It is an HR optimization app that uses a custom NLP model (built with spaCy) to read
+                                resumes, offering personalized feedback and accurate ranking. It also conducts
+                                interviews, using a state-of-the-art Large Language Model (LLM). It crafts questions,
+                                ensuring each candidate faces a fair assessment, and the responses contribute to a
+                                comprehensive ranking. It makes sifting through resumes and conducting interviews a
+                                breeze, making hiring decisions smarter and more efficient.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/RecruitRank.jpeg" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Recruit Rank</h5>
+                    <p class="card-text">
+                        It is an HR optimization app that uses a custom NLP model (built with spaCy) to read resumes,
+                        offering personalized feedback and accurate ranking. It also conducts interviews, using a
+                        state-of-the-art Large Language Model (LLM). It crafts questions...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PCM1">View
+                        more</button>
+                </div>
+            </div>
+            <div class="modal fade" id="PCM2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/DataViz.jpeg" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Data Viz</h3>
+                            </div>
+                            <div>
+                                DataViz is a web-based platform that provides visualizations of datasets and
+                                demonstrates the capabilities of various machine learning models. The platform is
+                                designed to make data exploration and model evaluation more accessible and intuitive.
+                                Users can easily upload their datasets, visualize them using a variety of interactive
+                                charts, graphs, and maps, and explore pre-trained models to evaluate their performance
+                                and visualize their predictions.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/DataViz.jpeg" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Data Viz</h5>
+                    <p class="card-text">
+                        DataViz is a web-based platform that provides visualizations of datasets and demonstrates the
+                        capabilities of various machine learning models. The platform is designed to make data
+                        exploration and model evaluation more accessible...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PCM2">View
+                        more</button>
+                </div>
+            </div>
+            <div class="modal fade" id="PCM3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/MedicalHealthBuddy.jpeg" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Medical Health Buddy</h3>
+                            </div>
+                            <div>
+                                Medical Health Buddy provides a range of features aimed at enhancing healthcare
+                                insights:<br /><br />
+
+                                i. Disease Prediction:<br />
+                                Users input their symptoms, and the TensorFlow Keras model predicts the top 4 potential
+                                diseases with an accuracy exceeding 85%. Trained on a dataset of over 5000 patient
+                                records, this feature aids in early disease identification.<br /><br />
+
+                                ii. Lab Report Analysis:<br />
+                                By entering key information from lab reports, users receive predictions on potential
+                                liver disease, heart disease, or diabetes. Three specialized models, each trained on
+                                datasets of around 1000 patient records with over 90% accuracy, contribute to this
+                                insightful analysis.<br /><br />
+
+                                - Diabetes Prediction:<br />
+                                Trained on medical information and lab analyses of Iraqi patients, sourced from Medical
+                                City Hospital and the Specialized Center for Endocrinology and Diabetes (Al-Kindi
+                                Teaching Hospital).<br /><br />
+
+                                - Heart Disease Prediction:<br />
+                                Trained on a dataset of about 300 patients, utilizing cardiac catheterization as the
+                                gold standard for classifying individuals with or without heart disease.<br /><br />
+
+                                - Liver Disease Prediction:<br />
+                                Trained on a dataset of approximately 600 patients from the north-eastern region of
+                                Andhra Pradesh, India, this model aids in predicting the likelihood of liver disease
+                                based on lab analyses.<br /><br />
+
+                                Medical Health Buddy leverages these models to empower users with valuable health
+                                insights, fostering early detection and informed decision-making.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/MedicalHealthBuddy.jpeg" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Medical Health Buddy</h5>
+                    <p class="card-text">
+                        Medical Health Buddy provides a range of features aimed at enhancing healthcare
+                        insights:<br /><br />
+
+                        i. Disease Prediction:<br />
+                        Users input their symptoms, and the TensorFlow Keras model predicts the top 4 potential...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PCM3">View
+                        more</button>
+                </div>
+            </div>
+            <div class="modal fade" id="PCM4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/UniBot.jpeg" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Uni Bot</h3>
+                            </div>
+                            <div>
+                                UniBot is an AI-driven virtual assistant tailored for university and college students,
+                                providing a comprehensive support system for all aspects of university life. It offers
+                                information on academics, campus facilities, and administrative procedures, along with
+                                access to past year papers and study materials. UniBot extends virtual counseling
+                                services to support students dealing with academic stress or personal challenges.
+                                Additionally, it streamlines feedback and complaint processes, keeps students informed
+                                about campus activities, and fosters a personalized experience through AI-powered
+                                natural language understanding. UniBot aims to enhance the overall university experience
+                                by providing a one-stop solution for academic and non-academic needs, offering
+                                convenience and support for students in their educational journey.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/UniBot.jpeg" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Uni Bot</h5>
+                    <p class="card-text">
+                        UniBot is an AI-driven virtual assistant tailored for university and college students, providing
+                        a comprehensive support system for all aspects of university life. It offers information on
+                        academics, campus facilities, and administrative...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PCM4">View
+                        more</button>
+                </div>
+            </div>
+        </div>
+        <h4 style="padding: 2vh 0;">Ongoing</h4>
+        <div class="grid-3-1">
+            <div class="modal fade" id="POM1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/ParalegalAI.jpeg" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Paralegal AI</h3>
+                            </div>
+                            <div>
+                                Paralegal AI is a legal support tool powered by artificial intelligence, focused on
+                                simplifying document generation and editing processes. Its user-friendly chat-based
+                                interface provides clear explanations of legal implications for document changes, while
+                                document summarization eliminates complex legal jargon for improved understanding.
+                                Prioritizing user privacy, Paralegal AI employs a private LLM model and includes OCR for
+                                extracting text from scanned documents. With multilingual support and secure cloud-based
+                                storage for documents, it ensures accessibility and efficiency. The platform also
+                                enables scheduling consultations with legal experts and incorporates speech-to-text
+                                functionality for enhanced usability. In essence, Paralegal AI is a comprehensive
+                                solution for managing, understanding, and communicating legal documents.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/ParalegalAI.jpeg" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Paralegal AI</h5>
+                    <p class="card-text">
+                        Paralegal AI is a legal support tool powered by artificial intelligence, focused on simplifying
+                        document generation and editing processes. Its user-friendly chat-based interface provides clear
+                        explanations of legal implications for document changes...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#POM1">View
+                        more</button>
+                </div>
+            </div>
+        </div>
+        <h4 style="padding: 2vh 0;">Upcoming</h4>
+        <h1 style="text-align: center; padding: 2vh 0;">Research Papers</h1>
+        <h4 style="padding: 2vh 0;">Completed</h4>
+        <div class="grid-3-1">
+            <div class="modal fade" id="RPCM1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/Encryption.webp" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Analysis of End-to-End Encryption Research: Developments, Limitations and Future
+                                    Directions
+                                </h3>
+                            </div>
+                            <div>
+                                This paper undertakes a comprehensive, interdisciplinary review of recent end-to-end
+                                encryption (E2EE) research. It provides critical analysis of E2EE techniques,
+                                applications, policy debates, user perspectives, and cross-disciplinary challenges. The
+                                review synthesizes technical developments in cryptography while also drilling into
+                                complex socio-ethical dimensions of real-world E2EE deployment. It highlights critical
+                                knowledge gaps warranting further research and distils core insights across the
+                                literature. The paper emphasizes the urgent need for continued collaboration between
+                                computer science, law, policy, social science, and design fields to advance E2EE
+                                solutions that holistically balance security, privacy, usability, lawful access, and
+                                societal trust.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/Encryption.webp" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Analysis of End-to-End Encryption Research: Developments, Limitations and
+                        Future Directions
+                    </h5>
+                    <p class="card-text">
+                        This paper undertakes a comprehensive, interdisciplinary review of recent end-to-end encryption
+                        (E2EE) research. It provides critical analysis of E2EE techniques, applications, policy debates,
+                        user perspectives, and cross-disciplinary...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RPCM1">View
+                        more</button>
+                </div>
+            </div>
+            <div class="modal fade" id="RPCM2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color:#1e1e1e;">
+                        <div class="modal-header"
+                            style="flex-direction: column; align-items: flex-end; border: none; padding-bottom: 0;">
+                            <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="padding-top: 0;">
+                            <div class="modal-img-div"><img src="./Images/MLDeepLearning.jpeg" class="modal-img" />
+                            </div>
+                            <div>
+                                <h3>Advanced ML and Deep learning for Disease Diagnosis: Predictive Symptom Analysis
+                                </h3>
+                            </div>
+                            <div>
+                                This disease prediction system utilizes Multinomial Naive Bayes, Random Forest,
+                                K-Nearest Neighbour, Logistic Regression, Support Vector Machine, Decision Tree,
+                                Multilayer Perceptron, Voting classifier and Deep learning sequential models to
+                                accurately predict diseases based on observed symptoms. The system incorporates data
+                                preprocessing techniques, model training using multiple algorithms, evaluation, and
+                                disease prediction. The effectiveness of the system is evaluated using various
+                                evaluation metrics, providing insights into the accuracy and reliability of the
+                                predictions. The results demonstrate the potential of the system in assisting medical
+                                professionals in diagnosing diseases and making informed decisions.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white" style="background-color:#1e1e1e;">
+                <div class="bg-image">
+                    <img src="./Images/MLDeepLearning.jpeg" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Advanced ML and Deep learning for Disease Diagnosis: Predictive Symptom
+                        Analysis
+                    </h5>
+                    <p class="card-text">
+                        This disease prediction system utilizes Multinomial Naive Bayes, Random Forest, K-Nearest
+                        Neighbour, Logistic Regression, Support Vector Machine, Decision Tree, Multilayer Perceptron,
+                        Voting classifier and Deep learning sequential models...
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RPCM2">View
+                        more</button>
+                </div>
+            </div>
+        </div>
+        <h4 style="padding: 2vh 0;">Ongoing</h4>
+        <h4 style="padding: 2vh 0;">Upcoming</h4>
+    </div>
+    </div>
+</body>
+
+</html>
